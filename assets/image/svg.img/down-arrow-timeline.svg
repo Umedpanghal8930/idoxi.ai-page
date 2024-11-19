@@ -1,0 +1,14 @@
+<svg width="40" height="60" viewBox="0 0 40 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFA800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F06500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Line above the arrow -->
+  <line x1="20" y1="10" x2="20" y2="25" stroke="#F06500" stroke-width="3" />
+  
+  <!-- Downward Arrow (Triangle) -->
+  <polygon points="10,30 30,30 20,50" fill="url(#gradient)" />
+</svg>
