@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url(./root.css);
-*{
+
+* {
     transition: all 400ms linear !important;
 }
+
 /* font-family  */
 .poppins-family {
     font-family: "Poppins", sans-serif;
@@ -168,9 +170,7 @@
     margin-bottom: 13px;
 }
 
-.mb-70 {
-    margin-bottom: 70px;
-}
+
 
 .mt-58 {
     margin-top: 58px;
@@ -324,7 +324,7 @@
 }
 
 .accordian-svg {
-    background:var(--fc-accordian-blue-grey);
+    background: var(--fc-accordian-blue-grey);
     border-radius: 8%;
     padding: 16px 16px 19px 16px;
     position: absolute;
@@ -1051,6 +1051,10 @@ footer li a:hover {
 
     .pt-xl-177 {
         padding-top: 177px;
+    }
+
+    .mb-70 {
+        margin-bottom: 70px;
     }
 }
 
