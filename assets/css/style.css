@@ -562,6 +562,7 @@
 .btn-select:hover {
     border: var(--fc-dark-white) !important;
     color: var(--fc-blue) !important;
+    border: 1px solid #FBFDFF !important;
 }
 
 /* section-12  */
