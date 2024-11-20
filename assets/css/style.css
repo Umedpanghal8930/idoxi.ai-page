@@ -251,7 +251,7 @@
 
 /* section-2  */
 .bg-first-slider {
-    background-color: #545f67;
+    background-color: var(--fc-black);
     mix-blend-mode: luminosity;
     transition: all 300ms linear !important;
 }
@@ -662,30 +662,6 @@ footer li a:hover {
 
     }
 
-    footer h5 {
-        text-align: center;
-    }
-
-    footer li {
-        text-align: center;
-    }
-
-    .text-footer {
-        text-align: center;
-    }
-
-    .footer-logo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .social-icons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     .accordion-body {
         padding-bottom: 60px !important;
     }
@@ -767,7 +743,7 @@ footer li a:hover {
 }
 
 @media (min-width:576px) {
-  
+
 
     .border-right-min-md {
         border-right: 1px solid var(--fc-grey-border-color);
@@ -845,9 +821,10 @@ footer li a:hover {
     .mw-213 {
         max-width: 213px;
     }
-         .mw-150 {
-             max-width: 150px;
-         }
+
+    .mw-150 {
+        max-width: 150px;
+    }
 }
 
 @media (min-width:768px) {
@@ -915,7 +892,7 @@ footer li a:hover {
         max-width: 436px;
     }
 
-   
+
 
     .mw-500 {
         max-width: 500px;
@@ -984,33 +961,34 @@ footer li a:hover {
     .pb-lg-130 {
         padding-bottom: 130px;
     }
-          .box-1 {
-            position: absolute;
-            top: 33%;
-            left: 0;
-            max-width: 220px !important;
-        }
-    
-        .box-2 {
-            position: absolute;
-            bottom: 12%;
-            left: 0;
-            max-width: 220px !important;
-        }
-    
-        .box-3 {
-            position: absolute;
-            bottom: 30%;
-            right: 0;
-            max-width: 220px !important;
-        }
-    
-        .box-4 {
-            position: absolute;
-            bottom: 0%;
-            right: 12%;
-            max-width: 220px !important;
-        }
+
+    .box-1 {
+        position: absolute;
+        top: 33%;
+        left: 0;
+        max-width: 220px !important;
+    }
+
+    .box-2 {
+        position: absolute;
+        bottom: 12%;
+        left: 0;
+        max-width: 220px !important;
+    }
+
+    .box-3 {
+        position: absolute;
+        bottom: 30%;
+        right: 0;
+        max-width: 220px !important;
+    }
+
+    .box-4 {
+        position: absolute;
+        bottom: 0%;
+        right: 12%;
+        max-width: 220px !important;
+    }
 }
 
 @media (min-width:1200px) {
