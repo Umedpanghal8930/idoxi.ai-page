@@ -12,29 +12,30 @@ $('.frist_sldr').slick({
     cssEase: 'linear',
 });
 
+
 $('.Testimonials-slider').slick({
-    centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 1,
     dots: true,
+    infinite: true,
+    slidesToShow: 1.7,
+    autoplay: true,
     arrows: false,
+    autoplaySpeed: 3000,
+    slidesToScroll: 1,
+
     responsive: [
+
         {
-            breakpoint: 768,
+            breakpoint: 992,
             settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1
+                slidesToShow: 2,
+                slidesToScroll: 2
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 786,
             settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1
+                slidesToShow: 1,
+                slidesToScroll: 1
             }
         }
     ]

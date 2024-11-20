@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url(./root.css);
 
-* {
-    transition: all 400ms linear !important;
-}
+
 
 /* font-family  */
 .poppins-family {
@@ -339,6 +337,10 @@
     max-width: 379px;
 }
 
+.mw-531 {
+    max-width: 531px;
+}
+
 /* section-5  */
 
 .value-box {
@@ -630,16 +632,13 @@ footer li a:hover {
     opacity: 60%;
 }
 
-.facebook {
-    border: 1px solid #808b93;
-    border-radius: 50px;
-    padding: 5px 11px 8px 13px;
-}
 
-.instagram {
+
+.icons {
+    width: 32px;
+    height: 32px;
     border: 1px solid #808b93;
     border-radius: 50px;
-    padding: 3px 9px 6px 9px;
 }
 
 .footer-line {
@@ -751,7 +750,6 @@ footer li a:hover {
     }
 
     header .container-fluid {
-        background: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
         opacity: 90%;
     }
 
@@ -769,32 +767,7 @@ footer li a:hover {
 }
 
 @media (min-width:576px) {
-    .box-1 {
-        position: absolute;
-        top: 33%;
-        left: 0;
-        /* left: -6%; */
-    }
-
-    .box-2 {
-        position: absolute;
-        bottom: 12%;
-        /* left: -12%; */
-        left: 0;
-    }
-
-    .box-3 {
-        position: absolute;
-        bottom: 30%;
-        /* right: -9%; */
-        right: 0;
-    }
-
-    .box-4 {
-        position: absolute;
-        bottom: -7%;
-        right: 12%;
-    }
+  
 
     .border-right-min-md {
         border-right: 1px solid var(--fc-grey-border-color);
@@ -869,6 +842,12 @@ footer li a:hover {
         padding-bottom: 38px;
     }
 
+    .mw-213 {
+        max-width: 213px;
+    }
+         .mw-150 {
+             max-width: 150px;
+         }
 }
 
 @media (min-width:768px) {
@@ -926,9 +905,7 @@ footer li a:hover {
         max-width: 474px;
     }
 
-    .mw-213 {
-        max-width: 213px;
-    }
+
 
     .mw-400 {
         max-width: 400px;
@@ -938,9 +915,7 @@ footer li a:hover {
         max-width: 436px;
     }
 
-    .mw-150 {
-        max-width: 150px;
-    }
+   
 
     .mw-500 {
         max-width: 500px;
@@ -1009,6 +984,33 @@ footer li a:hover {
     .pb-lg-130 {
         padding-bottom: 130px;
     }
+          .box-1 {
+            position: absolute;
+            top: 33%;
+            left: 0;
+            max-width: 220px !important;
+        }
+    
+        .box-2 {
+            position: absolute;
+            bottom: 12%;
+            left: 0;
+            max-width: 220px !important;
+        }
+    
+        .box-3 {
+            position: absolute;
+            bottom: 30%;
+            right: 0;
+            max-width: 220px !important;
+        }
+    
+        .box-4 {
+            position: absolute;
+            bottom: 0%;
+            right: 12%;
+            max-width: 220px !important;
+        }
 }
 
 @media (min-width:1200px) {
@@ -1033,13 +1035,13 @@ footer li a:hover {
     .box-1 {
         position: absolute;
         top: 33%;
-        left: -6%;
+        left: -2%;
     }
 
     .box-2 {
         position: absolute;
         bottom: 12%;
-        left: -12%;
+        left: -4%;
 
     }
 
@@ -1060,22 +1062,22 @@ footer li a:hover {
 }
 
 @media (min-width:1400px) {
-    .enter-prises {
+    /* .enter-prises {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+    } */
 
     .mw-225 {
         max-width: 225px;
     }
 
-    .box-3 {
+    /* .box-3 {
         position: absolute;
         bottom: 30%;
-        right: -5%;
+        right: -3%;
 
-    }
+    } */
 }
 
 @media (min-width:1700px) {
