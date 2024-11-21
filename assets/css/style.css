@@ -415,6 +415,11 @@
     background-image: linear-gradient(to right, #021b32, #02203e, #02274f, #02274e, #021c32, #021c31);
 }
 
+.Testimonials-slider .slick-slide {
+    width: 100%;
+    max-width: 946px !important;
+}
+
 /* section-7  */
 .token-circle {
     position: relative;
@@ -527,6 +532,52 @@
 }
 
 /* section-10  */
+
+.pricing-table {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+}
+
+.price-days-1 {
+    border-bottom: 1px solid #273849;
+}
+
+.price-days-2 {
+    border-bottom: 1px solid #273849;
+}
+
+.price-days-3 {
+    border-bottom: 1px solid #273849;
+}
+
+.table-pricing-right-border-1 {
+    border-right: 1px solid #273849;
+}
+
+.table-pricing-right-border-2 {
+    border-right: 1px solid #273849;
+}
+
+.pricing-plan-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.pricing-plan-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.pricing-plan-3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+
+
+
 
 .table-first-row {
     border-bottom: 1px solid #273849;
@@ -675,6 +726,28 @@ footer li a:hover {
     }
 }
 
+@media (max-width:575.98px) {
+    .pricing-plan-2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .pricing-plan-3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .table-pricing-right-border-1 {
+        border-right: none !important;
+    }
+
+    .table-pricing-right-border-2 {
+        border-right: none !important;
+    }
+
+
+}
+
 @media (max-width:400px) {
     .power-icon {
         max-width: 35px;
@@ -697,11 +770,11 @@ footer li a:hover {
     }
 
     .accordion-body {
-        padding-bottom: 150px !important;
+        padding-bottom: 100px !important;
     }
 
     .text-accordian-body {
-        top: 90px;
+        top: 70px;
     }
 }
 
@@ -825,6 +898,24 @@ footer li a:hover {
     .mw-150 {
         max-width: 150px;
     }
+
+    .pricing-plan-2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .pricing-plan-3 {
+        grid-column: 1/2;
+        grid-row: 2/5;
+    }
+
+    .table-pricing-right-border-2 {
+        border-right: none !important;
+    }
+
+    .pb-sm-35 {
+        padding-bottom: 35px;
+    }
 }
 
 @media (min-width:768px) {
@@ -865,6 +956,9 @@ footer li a:hover {
         padding-bottom: 100px;
     }
 
+    .pb-md-48 {
+        padding-bottom: 48px !important;
+    }
 
 
 }
@@ -907,6 +1001,9 @@ footer li a:hover {
         max-width: 379px;
     }
 
+    .pb-lg-87 {
+        padding-bottom: 87px !important;
+    }
 
     .border-right-bottom {
         border-right: 1px solid var(--fc-grey-border-color);
@@ -988,6 +1085,20 @@ footer li a:hover {
         bottom: 0%;
         right: 12%;
         max-width: 220px !important;
+    }
+
+    .pricing-plan-2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .pricing-plan-3 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .table-pricing-right-border-2 {
+        border-right: 1px solid #273849 !important;
     }
 }
 

@@ -17,10 +17,12 @@ $('.Testimonials-slider').slick({
     dots: true,
     infinite: true,
     slidesToShow: 1.7,
-    autoplay: true,
+    autoplay: false,
     arrows: false,
-    autoplaySpeed: 3000,
+    // autoplaySpeed: 3000,
     slidesToScroll: 1,
+    // variableWidth: true,
+    // centerMode: true,
 
     responsive: [
 
