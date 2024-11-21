@@ -533,6 +533,11 @@
 
 /* section-10  */
 
+
+.pricing-table-layer {
+    display: none;
+}
+
 .pricing-table {
     display: grid;
     grid-template-columns: auto;
@@ -575,22 +580,6 @@
     grid-row: 1/2;
 }
 
-
-
-
-
-.table-first-row {
-    border-bottom: 1px solid #273849;
-
-}
-
-.th-bottom-border {
-    padding-bottom: 23px;
-}
-
-.right-border {
-    border-right: 1px solid #273849;
-}
 
 .list-style {
     list-style: none;
@@ -1051,6 +1040,8 @@ footer li a:hover {
         display: block !important;
     }
 
+
+
     .pt-lg-100 {
         padding-top: 100px;
     }
@@ -1148,25 +1139,23 @@ footer li a:hover {
     .mb-70 {
         margin-bottom: 70px;
     }
+
+    .pricing-table-layer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block !important;
+        z-index: -1;
+    }
 }
 
 @media (min-width:1400px) {
-    /* .enter-prises {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    } */
+
 
     .mw-225 {
         max-width: 225px;
     }
-
-    /* .box-3 {
-        position: absolute;
-        bottom: 30%;
-        right: -3%;
-
-    } */
 }
 
 @media (min-width:1700px) {
