@@ -655,6 +655,10 @@
 }
 
 /* footer  */
+.cursor-pointer {
+    cursor: pointer;
+}
+
 .bg-footer {
     background: var(--fc-bg-footer);
 }
@@ -666,6 +670,7 @@ footer li a {
 
 footer li a:hover {
     text-decoration-line: underline !important;
+    color: var(--fc-blue) !important;
 }
 
 .opacity-60 {
